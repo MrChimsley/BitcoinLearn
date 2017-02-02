@@ -63,7 +63,7 @@ std::string privatekey = "0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827
 bitcoin.processData(privatekey);
 
 std::cout<<"Private Key     "<<bitcoin.private_key<<std::endl;  //0C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D
-std::cout<<"Extended Key    "<<bitcoin.ext_private_key<<std::endl;
+std::cout<<"Extended Key    "<<bitcoin.ext_private_key<<std::endl;// 800C28FCA386C7A227600B2FE50B7CAE11EC86D3BF1FBE471BE89827E19D72AA1D
 std::cout<<"Hash Extended   "<<bitcoin.hash_ext_private_key<<std::endl; //8147786C4D15106333BF278D71DADAF1079EF2D2440A4DDE37D747DED5403592
 std::cout<<"Hash of hash    "<<bitcoin.hash_of_hash<<std::endl; //507A5B8DFED0FC6FE8801743720CEDEC06AA5C6FCA72B07C49964492FB98A714
 std::cout<<"Checksum bytes  "<<bitcoin.checksum<<std::endl; //507A5B8D
