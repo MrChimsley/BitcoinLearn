@@ -1,10 +1,7 @@
 #include <iostream>
-#include <sstream>
-#include <iomanip>
-#include <openssl/sha.h>
-#include <openssl/bn.h>
+
 #include "structs.cpp"
-#include <cstring>
+
 
 
 
