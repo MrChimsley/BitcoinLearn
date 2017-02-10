@@ -26,33 +26,6 @@ std::cout<<"WIF as Hex      "<<bitcoin.hexwif<<std::endl;
 std::cout<<"WIF as Base58   "<<bitcoin.base58_wif<<std::endl;
 
 
-
-/*
-char string_array[bitcoin.hexwif.length()+1];
-strcpy(string_array,bitcoin.hexwif.c_str());
-	BIGNUM *bn1 = NULL;
-	BIGNUM *bn2 = NULL;
-	BIGNUM *result = BN_new();
-	BIGNUM *quotient = BN_new();
-	BN_CTX *bn_ctx = BN_CTX_new();
-
-	BN_dec2bn(&bn1, "58");
-	BN_hex2bn(&bn2, string_array);
-
-	BN_div(quotient,result, bn2, bn1, bn_ctx );
-	std::cout<<BN_bn2dec(quotient)<<std::endl;
-	std::cout<<BN_bn2dec(result)<<std::endl;
-
-
-
-	BN_free(bn1);
-	BN_free(bn2);
-	BN_free(result);
-    BN_CTX_free(bn_ctx);
-*/
-
-
-
 return 0;
 
 }
